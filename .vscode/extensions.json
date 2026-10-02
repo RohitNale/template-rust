@@ -1,9 +1,11 @@
 {
   "recommendations": [
+    "usernamehw.errorlens",
     "esbenp.prettier-vscode",
     "fill-labs.dependi",
     "neophack.git-graph-rs",
     "rust-lang.rust-analyzer",
     "tamasfe.even-better-toml",
+    "humao.rest-client"
   ]
 }

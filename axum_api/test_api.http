@@ -1,0 +1,28 @@
+### Test health
+GET http://localhost:3000/health
+
+### 1. List the seeded tasks
+GET http://localhost:3000/tasks
+
+### 2. Get specific task
+GET http://localhost:3000/tasks/2
+
+### 3. Create new one
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "title": "add the 4th task"
+}
+
+### 4. Update task
+PATCH http://localhost:3000/tasks/4
+Content-Type: application/json
+
+{
+    "title": "update the 4th task",
+    "done": true
+}
+
+### 5. Delete task
+DELETE http://localhost:3000/tasks/4
