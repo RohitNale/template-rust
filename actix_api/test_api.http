@@ -1,0 +1,17 @@
+### Create Item: 
+POST http://localhost:3000/todos 
+Content-Type: application/json
+
+{"title": "Learn Actix Web"}
+
+### Fetch All Items: 
+GET http://localhost:3000/todos
+
+### Modify Status: 
+PUT http://localhost:3000/todos/1
+Content-Type: application/json
+
+{"completed": true}
+
+### Remove Item: 
+DELETE http://localhost:3000/todos/1
