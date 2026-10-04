@@ -1,0 +1,13 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "rust": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["class\\s*:\\s*\"([^\"]*)\"", "([a-zA-Z0-9\\-]+)"],
+    ["class\\s*=\\s*\"([^\"]*)\"", "([a-zA-Z0-9\\-]+)"],
+    ["\"([^\"]*)\"", "([a-zA-Z0-9\\-]+)"]
+  ]
+}

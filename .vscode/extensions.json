@@ -6,6 +6,7 @@
     "neophack.git-graph-rs",
     "rust-lang.rust-analyzer",
     "tamasfe.even-better-toml",
-    "humao.rest-client"
+    "humao.rest-client",
+    "bradlc.vscode-tailwindcss"
   ]
 }

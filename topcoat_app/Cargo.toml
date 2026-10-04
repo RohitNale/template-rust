@@ -1,0 +1,12 @@
+[package]
+name = "topcoat_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+topcoat = { version = "0.10.0", features = ["tailwind"] }
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros"] }
+serde = { version = "1.0.229", features = ["derive"] }
+
+[build-dependencies]
+topcoat = { version = "0.10.0", default-features = false , features = ["tailwind"] }
